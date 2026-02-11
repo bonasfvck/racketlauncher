@@ -11,23 +11,23 @@ theme_settings :
   profile :
     image : assets/img/frankestein.png
     username : Racket Launcher
-    description : Hey! I am studying Cloud technologies, and this blog documents my journey. I'll be posting snippets, Cloud techs and anything in between. Get on board and let's explore possibilities!
+    description : best valued online tennis racket shop 🎾 cebu
     experience :
       - start : 2014
         end : 2020
-        experience : Application Developer at A Company
+        experience : Water kid at Wimbledon
       - start : 2013
         end : 2014
-        experience : Intern Developer at S Company
+        experience : Dirt mower at Roland Garros
     skills : 
-      - skill : AWS
+      - skill : Serve
         value : 10  # Percent value
-      - skill : Azure
+      - skill : Backhand
         value : 30  # Percent value
-      - skill : Sitecore
+      - skill : Forehand
         value : 80  # Percent value
-      - skill : Asp.Net MVC
-        value : 85  # Percent value
+      - skill : Grunting
+        value : 95  # Percent value
         
   # Icons
   icons :
