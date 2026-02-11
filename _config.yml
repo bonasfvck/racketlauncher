@@ -48,7 +48,7 @@ theme_settings :
 
 # Pagination
 paginate: 3
-paginate_path: "racketlauncher/blog/page:num"
+paginate_path: "blog/page:num"
 
 # Build Ssttings
 sass:
