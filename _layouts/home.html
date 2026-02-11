@@ -66,20 +66,20 @@ layout: default
           {% assign max = paginator.total_pages %}
           {% endif %}
           {% if min != 1 %}
-          <a href="/blog/page{{ min | minus: 1 }}">
+          <a href="{{ site.suburl }}/blog/page{{ min | minus: 1 }}">
             <li class="btn-rounded prev">
               <i class="fas fa-angle-double-left"></i>
             </li>
           </a>
           {% endif %}
           {% for page in (min..max) %}
-          <a href="{% if page == 1 %}/{% else %}/blog/page{{ page }}{% endif %}"
+          <a href="{% if page == 1 %}/{% else %}{{ site.suburl }}/blog/page{{ page }}{% endif %}"
             class="{% if page == paginator.page %}selected{% endif %}">
             <li class="btn-rounded">{{ page }}</li>
           </a>
           {% endfor %}
           {% if max != paginator.total_pages %}
-          <a href="/blog/page{{ max | plus: 1 }}">
+          <a href="{{ site.suburl }}/blog/page{{ max | plus: 1 }}">
             <li class="btn-rounded next">
               <i class="fas fa-angle-double-right"></i>
             </li>
