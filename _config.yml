@@ -43,7 +43,7 @@ theme_settings :
     instagram: racketlauncher
 
   # Disqus
-  disqus_shortname : racketlauncher
+  disqus_shortname : bonasfvck
 
 # Pagination
 paginate: 3
