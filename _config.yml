@@ -22,12 +22,18 @@ theme_settings :
     username : Racket Launcher
     description : best valued online tennis racket shop 🎾 cebu
     experience :
-      - start : 2014
-        end : 2020
+      - start : 2021
+        end : 2026
         experience : Water kid at Wimbledon
-      - start : 2013
-        end : 2014
+      - start : 2019
+        end : 2021
         experience : Dirt remover at Roland Garros
+      - start : 2016
+        end : 2019
+        experience : Unhappy at AO
+      - start : 2014
+        end : 2016
+        experience : Nonchalant at Flushing Meadows
     skills : 
       - skill : Serve
         value : 10  # Percent value
