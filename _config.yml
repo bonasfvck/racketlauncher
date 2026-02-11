@@ -1,6 +1,6 @@
 # Site Settings
 baseurl: ""
-url : "https://bonasfvck.github.io/racketlauncher"
+url : "racketlauncher"
 
 # Blog Settings
 theme_settings :
