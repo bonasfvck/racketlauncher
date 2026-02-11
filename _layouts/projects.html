@@ -9,7 +9,7 @@
         <div class="card">
           {% if project.image %}
           <div class="img-wrap">
-            <img src="{{ site.url }}/assets/project/{{ project.image }}" alt="">
+            <img src="{{ site.url }}/{{ site.suburl }}/assets/project/{{ project.image }}" alt="">
           </div>
           {% endif %}
           <div class="text-wrap {% if project.image %}{% endif %}">
