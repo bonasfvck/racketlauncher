@@ -1,7 +1,7 @@
 <!-- User Profile -->
 <div id="profile">
   {% assign profile = site.theme_settings.profile %}
-  <a href="{{ site.baseurl }}/portfolio">
+  <a href="{{ site.baseurl }}/{{ site.suburl }}/portfolio">
     <div class="img-wrap">
       <img src="{{ site.baseurl }}/{{ profile.image }}" alt="profile-image">
     </div>
@@ -16,11 +16,11 @@
 </div>
 <!-- Tag Navigation -->
 <div id="tag-wrap">
-  <a href="{{ site.url }}/tags">
+  <a href="{{ site.url }}/{{ site.suburl }}/tags">
     <p class="title">TAGS</p>
   </a>
   {% for tag in site.tags %}
-  <a href="{{site.baseurl}}/tags#{{ tag | first | cgi_encode }}">
+  <a href="{{site.baseurl}}/{{ site.suburl }}/tags#{{ tag | first | cgi_encode }}">
     <span class="tag">{{ tag | first }}</span>
   </a>
   {% endfor %}
