@@ -1,16 +1,16 @@
 # Site Settings
 baseurl: ""
-url : "https://racketlauncher.github.io"
+url : "https://bonasfvck.github.io/racketlauncher"
 
 # Blog Settings
 theme_settings :
-  title : Bon
+  title : Racket Launcher
   favicon : assets/favicon.ico
 
   # Profile Settings
   profile :
     image : assets/img/frankestein.png
-    username : Bon
+    username : Racket Launcher
     description : Hey! I am studying Cloud technologies, and this blog documents my journey. I'll be posting snippets, Cloud techs and anything in between. Get on board and let's explore possibilities!
     experience :
       - start : 2014
@@ -37,13 +37,13 @@ theme_settings :
     gitlab: 
     bitbucket: 
     google_plus:
-    twitter: bonasfvck
+    twitter: racketlauncher
     youtube:
     facebook:
-    instagram: bonasfvck
+    instagram: racketlauncher
 
   # Disqus
-  disqus_shortname : bonasfvck
+  disqus_shortname : racketlauncher
 
 # Pagination
 paginate: 3
