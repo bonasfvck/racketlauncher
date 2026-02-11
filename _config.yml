@@ -3,11 +3,6 @@ baseurl: ""
 suburl: "racketlauncher"
 url : "https://bonasfvck.github.io"
 
-collections:
-  racketlauncher:
-    output: true
-    permalink: /:collection/:name
-
 # Blog Settings
 theme_settings :
   title : Racket Launcher
