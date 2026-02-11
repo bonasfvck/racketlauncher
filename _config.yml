@@ -9,7 +9,7 @@ defaults:
       locale: "racketlauncher" # To sort by locale. You could also sort by path.
       type: "post"
     values:
-      permalink: racketlauncher/:categories/:year/:month/:day/title.html
+      permalink: racketlauncher/:categories/:year/:month/:day/:title.html
 
 # Blog Settings
 theme_settings :
