@@ -4,12 +4,11 @@ suburl: "racketlauncher"
 url : "https://bonasfvck.github.io"
 
 defaults:
-  -
-    scope:
+  - scope:
       path: "racketlauncher" # an empty string here means all files in the project
       type: "post" # previously `post` in Jekyll 2.2.
     values:
-      layout: "default"
+      permalink: racketlauncher/:categories/:year/:month/:title/
 
 # Blog Settings
 theme_settings :
