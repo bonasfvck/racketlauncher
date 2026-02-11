@@ -7,7 +7,7 @@
       {% when 'tags'%}
       <!-- tags -->
       <a href="{{ site.url }}/{{ site.suburl }}">
-        <li class="btn-nav">Blog</li>
+        <li class="btn-nav">Products</li>
       </a>
       <li class="current">Tags</li>
       <a href="{{ site.url }}/{{ site.suburl }}/portfolio">
@@ -15,8 +15,8 @@
       </a>
       <!-- portfolio -->
       {% when 'portfolio'%}
-      <a href="{{ site.url }}/{{ site.suburl }}/">
-        <li class="btn-nav">Blog</li>
+      <a href="{{ site.url }}/{{ site.suburl }}">
+        <li class="btn-nav">Products</li>
       </a>
       <a href="{{ site.url }}/{{ site.suburl }}/tags">
         <li class="btn-nav">Tags</li>
@@ -24,8 +24,8 @@
       <li class="current">Portfolio</li>
       {% else %}
       <!-- others -->
-      <a href="{{ site.url }}/{{ site.suburl }}/">
-        <li class="current btn-nav">Blog</li>
+      <a href="{{ site.url }}/{{ site.suburl }}">
+        <li class="current btn-nav">Products</li>
       </a>
       <a href="{{ site.url }}/{{ site.suburl }}/tags">
         <li class="btn-nav">Tags</li>
