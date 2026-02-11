@@ -1,7 +1,7 @@
 # Site Settings
 baseurl: ""
-suburl: "racketlauncher/"
-url : "https://bonasfvck.github.io/racketlauncher/"
+suburl: "racketlauncher"
+url : "https://bonasfvck.github.io/"
 
 # Blog Settings
 theme_settings :
