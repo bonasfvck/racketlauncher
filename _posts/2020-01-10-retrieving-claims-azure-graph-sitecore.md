@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Retrieving Azure B2C claims for Sitecore via AD Graph API
+title: Wilson Pro Staff
 subtitle :
-tags: [Azure, Sitecore]
+tags: [Wilson, Racket, Brand New]
 author: Bon
 comments : True
 ---
