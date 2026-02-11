@@ -7,7 +7,8 @@ author: Bon
 comments : True
 ---
 
-Let's go and start fresh with some Azure action! So I've been trying to play around with the AD Graph API to integrate it with Sitecore.
+WILSON
+
 
 <br>
 
