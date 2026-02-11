@@ -1,0 +1,58 @@
+# Site Settings
+baseurl: ""
+url : "https://bonasfvck.github.io"
+
+# Blog Settings
+theme_settings :
+  title : Bon
+  favicon : assets/favicon.ico
+
+  # Profile Settings
+  profile :
+    image : assets/img/frankestein.png
+    username : Bon
+    description : Hey! I am studying Cloud technologies, and this blog documents my journey. I'll be posting snippets, Cloud techs and anything in between. Get on board and let's explore possibilities!
+    experience :
+      - start : 2014
+        end : 2020
+        experience : Application Developer at A Company
+      - start : 2013
+        end : 2014
+        experience : Intern Developer at S Company
+    skills : 
+      - skill : AWS
+        value : 10  # Percent value
+      - skill : Azure
+        value : 30  # Percent value
+      - skill : Sitecore
+        value : 80  # Percent value
+      - skill : Asp.Net MVC
+        value : 85  # Percent value
+        
+  # Icons
+  icons :
+    email:  # Full email address, e.g. "sample@google.com"
+    linkedin:  # Full URL 
+    github: 
+    gitlab: 
+    bitbucket: 
+    google_plus:
+    twitter: bonasfvck
+    youtube:
+    facebook:
+    instagram: bonasfvck
+
+  # Disqus
+  disqus_shortname : bonasfvck
+
+# Pagination
+paginate: 3
+paginate_path: "blog/page:num"
+
+# Build Ssttings
+sass:
+  sass_dir: _sass
+  style: :compressed
+gems: [jekyll-paginate]
+bootstrap:
+  assets: true
