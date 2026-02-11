@@ -37,9 +37,9 @@ theme_settings :
     gitlab: 
     bitbucket: 
     google_plus:
-    twitter: racketlauncher
+    twitter: 
     youtube:
-    facebook:
+    facebook: racketlauncher
     instagram: racketlauncher
 
   # Disqus
