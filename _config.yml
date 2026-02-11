@@ -3,6 +3,14 @@ baseurl: ""
 suburl: "racketlauncher"
 url : "https://bonasfvck.github.io"
 
+defaults:
+-
+    scope:
+      locale: "racketlauncher" # To sort by locale. You could also sort by path.
+      type: "post"
+    values:
+      permalink: racketlauncher/:categories/:year/:month/:title/
+
 # Blog Settings
 theme_settings :
   title : Racket Launcher
